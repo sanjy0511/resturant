@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 25px;
+    text-align: center;
+    color: yellow;
+}
+h2{
+    padding-top: 20px;
+    font-size: 60px;
+    text-align: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 60px;
+    
+}
+.image img{
+    width: 400px;
+    height: 550px;
+}
+.maincourses th{
+    font-size: 20px;
+    padding-top: 9%;
+    padding-left: 60px;
+    
+    
+}
+.maincourses td{
+    font-size: medium;
+    padding-left: 60px;
+}
+.maincourses h3{
+    font-size: 40px;
+
+}
+.maincourses{
+    padding-right: 30px;
+    text-align: center;
+    padding-top: 50px; 
+     
+}
+.entreespecials{
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 50px; 
+    
+   
+}
+.entreespecials th{
+    font-size: 20px;
+    padding-top: 10%;
+    padding-left: 60px;
+    
+    
+     
+}
+.entreespecials td{
+    padding-left: 60px;
+    font-size: medium;
+}
+.entreespecials h3{
+    font-size: 40px;
+}
+.btn{
+    margin-left: 50%;
+}
