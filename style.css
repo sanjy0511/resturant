@@ -52,7 +52,7 @@ h2{
     padding-top: 50px; 
     
    
-    
+
 }
 .entreespecials th{
     font-size: 20px;
@@ -69,7 +69,7 @@ h2{
 .entreespecials h3{
     font-size: 40px;
 }
-button{
+.btn1{
     font-size: 20px;
     margin-left: 494px;
     margin-top: 10px;
@@ -78,7 +78,7 @@ button{
     background-color: black;
     color: white;     
 }
-button:hover{
+.btn1:hover{
     background-color: yellow;
     border: none;
     color: black;
