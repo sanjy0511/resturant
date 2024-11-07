@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .logo{
-  font-style: Libre Baskerville;
+  
   font-weight: 400;
   color: #ffff;
   
@@ -21,6 +21,11 @@ ul {
   justify-content: space-between;
   padding: 20px;
   color: rgb(253, 253, 251);
+  img{
+    width: 40px;
+    height: 40px;
+    display: none;
+  }
 }
 .nav-links {
   display: flex;
@@ -28,6 +33,8 @@ ul {
   
   font-style: Libre Baskerville;
   font-weight: 400;
+
+ 
 }
 .nav-links li {
   margin: 0 30px;
@@ -40,10 +47,11 @@ li a {
   }
 }
 
+
 header {
   width: 100%;
   height: 600px;
-  background-image: url("./a-beautifully-lit-outdoor-restaurant-featuring-colorful-lanterns-and-wooden-tables-surrounded-by-lush-t.jpg");
+  background-image: url("./background.png");
   background-position: bottom;
   background-size: cover;
   display: flex;
@@ -101,6 +109,8 @@ header {
     color: black;
   }
 }
+
+
 p {
   font-style: Libre Baskerville;
   margin-top: 40px;
@@ -121,8 +131,9 @@ h2 {
   padding-top: 60px;
 }
 .image img {
-  width: 400px;
-  height: 550px;
+  width: 450px;
+  height: 500px;
+  border-radius: 20px;
 }
 .maincourses th {
   font-size: 20px;
@@ -168,7 +179,7 @@ h2 {
 .btn1 {
   font-family: Libre Baskerville;
   font-size: 20px;
-  margin-left: 494px;
+  margin-left: 483px;
   margin-top: 10px;
   width: 25%;
   height: 40px;
@@ -181,3 +192,121 @@ h2 {
   color: black;
   border-radius: 10px;
 }
+label #btn,
+label #cancel{
+  font-size: 30px;
+  
+  line-height: 40px;
+  margin-left: 40px;
+  cursor: pointer;
+  display: none;
+
+}
+#check {
+  display: none;
+}
+
+
+
+@media (max-width: 600px ){
+  
+
+.header-content h1{
+  font-size: 80px;
+}
+.header-content h2{
+  font-size: 20px;
+}
+.header-content h3{
+  font-size: 15px;
+}
+
+
+/* today special */
+.menu{
+  width: 100%;
+  height: 110vh
+}
+.maincourses {
+  width: ;
+}
+
+.maincourses h3{
+  font-size: 20px;
+  
+}
+.maincourses th{
+  font-size: 15px;
+  text-align: center;
+}
+h2{
+  font-size: 40px;
+}
+.maincourses td{
+  font-size: 10px;
+}
+.image img{
+  width: 180px;
+  height: 400px;
+  ;
+}
+.entreespecials h3{
+  font-size: 20px;
+  
+}
+.entreespecials th{
+  font-size: 15px;
+  text-align: center;
+}
+.entreespecials td{
+  font-size: 10px;
+}
+.btn1{
+  font-size: 10px;
+  width: 80px;
+  height: 20px;
+  
+}
+
+  
+  label #btn{
+    display: block;
+  }
+  .nav-links{
+    flex-direction: column;
+    
+  }
+  ul{
+    
+    position: fixed;
+    width: 30%;
+    height: 100vh;
+    background-color: #ffff;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    z-index: 2000;
+    transition: all 0.5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 80px;
+    
+  }
+  nav ul li a{
+    font-size: 15px;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+  #check:checked ~ label #btn{
+    display: none;
+  }
+  #check:checked ~ label #cancel{
+    display: block;
+  }
+
+
+}
+
